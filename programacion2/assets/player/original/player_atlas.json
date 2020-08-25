@@ -1,0 +1,112 @@
+{
+    "frames": [
+        {
+            "filename": "aliengreen",
+            "frame": {
+                "w": 66,
+                "h": 92,
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "aliengreen_walk1",
+            "frame": {
+                "w": 68,
+                "h": 93,
+                "x": 0,
+                "y": 92
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "aliengreen_walk2",
+            "frame": {
+                "w": 70,
+                "h": 96,
+                "x": 0,
+                "y": 185
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "aliengreen_stand",
+            "frame": {
+                "w": 66,
+                "h": 92,
+                "x": 0,
+                "y": 281
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "aliengreen_hurt",
+            "frame": {
+                "w": 69,
+                "h": 92,
+                "x": 0,
+                "y": 373
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "aliengreen_duck",
+            "frame": {
+                "w": 69,
+                "h": 71,
+                "x": 0,
+                "y": 465
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "aliengreen_climb1",
+            "frame": {
+                "w": 66,
+                "h": 92,
+                "x": 0,
+                "y": 536
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "aliengreen_climb2",
+            "frame": {
+                "w": 66,
+                "h": 92,
+                "x": 0,
+                "y": 628
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

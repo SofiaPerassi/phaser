@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.11.0/dist/phaser.js"></script>
+    <style type="text/css">
+        body {
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <script type="text/javascript">
+    
+    function preload (){
+    this.load.atlas('megaset','assets/player/player.png',
+    'assets/player/player_atlas.json');
+    this.load.tilemapTiledJSON('map', 'assets/nivel1.json');
+    this.load.image('tiles1', 'assets/nivel1.png');
+    }
+
+    function create (){
+    var map = this.make.tilemap({ key: 'map' });
+    var tileset = map.addTilesetImage('Nivel1', 'tiles1');
+    var layer = map.createStaticLayer('World1', tileset, 0, 0);
+    }
+
+    var atlasJSON = {"frames": [
+    {
+    "filename": "name",
+    "frame": {"x":893,"y":342,"w":128,"h":128},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+    "sourceSize": {"w":128,"h":128},
+    "pivot": {"x":0.5,"y":0.5}
+    }]}
+
+    </script>  
+    
+</body>
+</html>
